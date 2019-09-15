@@ -79,7 +79,6 @@
                         <li class="current"><a href="#body">Inicio</a></li>
                         <li><a href="#features">¿Quiens soy?</a></li>
                         <li><a href="#works">Trabajos</a></li>
-                        <li><a href="#team">Team</a></li>
                         <li><a href="#contact">Contacto</a></li>
                     </ul>
                 </nav>
@@ -101,17 +100,17 @@
 			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
 				<!-- Indicators bullet -->
-				<ol class="carousel-indicators">
+				<ul class="carousel-indicators">
 					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				</ol>
+				</ul>
 				<!-- End Indicators bullet -->
 
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner" role="listbox">
 
 					<!-- single slide -->
-					<div class="item active" style="background-image: url(img/banner.jpg);">
+					<div class="item active" style="background-image: url(img/slider/slide-banner2-72px-1920x1280.jpg);">
 						<div class="carousel-caption">
 							<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Diseño<span> Responsive</span>!</h2>
 							<h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/Creatividad</span> en cada trabajo.</h3>
@@ -128,9 +127,11 @@
 					<!-- end single slide -->
 
 					<!-- single slide -->
-					<div class="item" style="background-image: url(img/banner.jpg);">
+
+					<div class="item" style="background-image: url(img/slider/slide-banner2-72px.jpg);">
+
 						<div class="carousel-caption">
-							<h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Contenido de<span>Valor</span>!</h2>
+							<h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Contenido de<span> Valor</span>!</h2>
 							<h3 data-wow-duration="500ms" class="wow slideInLeft animated"><span class="color">/Innovacion</span> para tu negocio.</h3>
 							<p data-wow-duration="500ms" class="wow slideInRight animated">Ofrece tus productos y servicios de forma atractiva</p>
 
@@ -162,13 +163,13 @@
 			<div class="container">
 				<div class="row">
 
-					<div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+					<div class="sec-title text-center mb50 wow slideInRight animated" data-wow-duration="500ms">
 						<h2>Quien soy</h2>
 						<div class="devider"><i class="fa fa-users fa-lg"></i></div>
 					</div>
 
           <div class="sec-sub-title text-center">
-            <h4 class="parrafo1">Me llamo Ronny Sabando, soy Lcdo. en Diseño web y aplicaciones multimedia.
+            <h4 class="parrafo1 wow slideInRight animated">Me llamo Ronny Sabando, soy Lcdo. en Diseño web y aplicaciones multimedia.
             me especializo en el desarrollo de sitios web responsive mediante customización
             de plantillas, gestores de contenido (Wordpress) y diseño a medida. También he trabajado en proyectos
           de desarrollo de aplicaciones y videojuegos para plataformas móviles y web.  </h4>
@@ -191,12 +192,12 @@
 			<div class="container">
 				<div class="row">
 
-					<div class="sec-title text-center">
+					<div class="sec-title text-center wow slideInLeft animated">
 						<h2>Trabajos</h2>
 						<div class="devider"><i class="fa fa-pencil fa-lg"></i></div>
 					</div>
 
-					<div class="sec-sub-title text-center">
+					<div class="sec-sub-title text-center wow slideInLeft animated">
 						<p>Desarrollo de videojuegos, páginas web, logos, ilustraciones.</p>
 					</div>
 
@@ -214,21 +215,21 @@
 			</div>
 
 			<div class="project-wrapper">
-
+<div class="container wow fadeInRight animated">
 				<figure class="mix work-item videojuego">
-					<img src="img/works/item-1.jpg" alt="">
+					<img src="img/works/videojuego-cuadro.jpg" alt="">
 					<div class="overlay">
 
-						<h2 class="fancybox" rel="works" title="Ñami Ñam" href="img/works/item-1.jpg">Ñami ñam</h2>
+						<h2 class="fancybox" rel="works" title="Ñami Ñam" href="img/works/videojuego-cuadro.jpg">Ñami ñam</h2>
             <p>Videojuego móvil</p>
 					</div>
 				</figure>
 
 				<figure class="mix work-item web">
-					<img src="img/works/item-2.jpg" alt="">
+					<img src="img/works/web-cuadro.jpg" alt="">
 					<div class="overlay">
 
-						<h2 class="fancybox" rel="works" title="Sitio web Ñami ñam" href="img/works/item-2.jpg">Ñami ñam</h2>
+						<h2 class="fancybox" rel="works" title="Sitio web Ñami ñam" href="img/works/web-cuadro.jpg">Ñami ñam</h2>
 						<p>Sitio web</p>
 					</div>
 				</figure>
@@ -261,7 +262,7 @@
 				</figure>
 
 			</div>
-
+</div>
 
 		</section>
 
@@ -300,7 +301,7 @@
 						<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
 					</div>
 
-					<div class="sec-sub-title text-center wow rubberBand animated" data-wow-duration="1000ms">
+					<div class="sec-sub-title text-center wow fadeInDown animated" data-wow-duration="1000ms">
 						<p>Tienes alguna duda o quieres contactarte conmigo? envíame un mensaje mediante el siguiente formulario
             o a traves de mi número de wasap</p>
 					</div>
@@ -362,16 +363,21 @@
 		<footer id="footer" class="footer">
 			<div class="container">
 				<div class="row">
+          <!-- <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms"> -->
 
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
-						<div class="footer-single ">
-							<img src="img/footer-logo.png" alt="">
-							<p>eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						</div>
+					<div class="col-md-4"  data-wow-duration="500ms">
+
 					</div>
 
+          <div class="col-md-4 wow fadeInUp animated"  data-wow-duration="500ms">
+            <div class="footer-single">
+              <img src="img/footer-logo.png" alt="">
+              <p class="permisos">eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+          <div class="col-md-4"  data-wow-duration="500ms">
 
-
+          </div>
 
 
 
