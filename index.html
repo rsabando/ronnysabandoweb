@@ -367,7 +367,7 @@
 									<textarea name="message" id="message" placeholder="mensaje" class="form-control"></textarea>
 								</div>
 								<div class="input-group">
-									<input type="submit" id="form-submit" class="pull-right" value="Clic para enviar">
+									<input type="submit" id="Enviar" class="pull-right" value="Clic para enviar">
 								</div>
 							</form>
 						</div>
@@ -386,7 +386,9 @@
 			<!-- End Google map -->
 
 		</section>
+<div id="respuesta">
 
+</div>
         <!--
         End Contact Us
         ==================================== -->
@@ -469,7 +471,33 @@
 		<!-- Custom Functions -->
         <script src="js/custom.js"></script>
 
-		<script type="text/javascript">
+        <script>
+        $('#Enviar').click(function(){
+          var Nombre=document.getElementById('name').value;
+          var Correo=document.getElementById('email').value;
+          var Mensaje=document.getElementById('message').value;
+
+          var ruta="Nom="+Nombre+"&Co="+Correo+"&Ms="+Mensaje;
+          $.ajax({
+            url:'enviarmensaje.php',
+            type:'POST',
+            data: ruta,
+          })
+          .done(function(res){
+            $('#respuesta').html(res)
+          })
+          .fail(function(){
+            console.log("error");
+          })
+          .always(function(){
+            console.log("complete");
+          });
+
+        });
+
+        </script>
+
+		<!-- <script type="text/javascript">
 			$(function(){
 				/* ========================================================================= */
 				/*	Contact Form
@@ -524,6 +552,6 @@
 					}
 				});
 			});
-		</script>
+		</script> -->
     </body>
 </html>
