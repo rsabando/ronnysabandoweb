@@ -11,7 +11,10 @@
 
 /* works */
 
-
+/* .quiensoy{
+  width:50%;
+  float: left;
+} */
 /* team */
 
 .member-thumb {
@@ -62,8 +65,17 @@
 /* works */
 
 .work-item {
-  width: 33%;
+  width: 47%;
 }
+/* .quiensoy{
+  width:48%;
+height:240px;
+  float: left;
+
+}
+.quiensoy h4{
+  font-size: 12px;
+} */
 
 /* team */
 
@@ -136,7 +148,7 @@ background-position: center top !important;
 }
 
 .social-links {
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 /* services */
@@ -163,8 +175,23 @@ background-position: center top !important;
 /* works */
 
 .work-item {
-  left: 5% !important;
+  left: 3% !important;
   width: 90%;
+}
+/* .quiensoy{
+  width:48%;
+height:240px;
+  float: left;
+
+}
+.quiensoy h4{
+  font-size: 12px;
+} */
+.quiensoy{
+
+height:auto;
+
+
 }
 
 /* team */
@@ -194,6 +221,7 @@ background-position: center top !important;
 /* contact */
 .contact-address {
   margin-bottom: 30px;
+    text-align: center;
 }
 
 .footer-social {
@@ -250,7 +278,11 @@ background-position: center top !important;
 
 .work-item {
   left: inherit !important;
-  width: 50%;
+
+  width: 45%;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* float: left; */
 }
 
 }

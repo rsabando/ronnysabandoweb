@@ -33,8 +33,12 @@ $(document).ready(function(){
     $(window).scroll(function () {
         if ($(window).scrollTop() > 400) {
             $("#navigation").css("background-color","rgba(2, 35, 52, 0.9)");
+						$("#logo").css("opacity","0");
+						$("#logo").css("transition","0.4s");
+
         } else {
             $("#navigation").css("background-color","rgba(2, 35, 52, 0)");
+							$("#logo").css("opacity","1");
         }
     });
 
