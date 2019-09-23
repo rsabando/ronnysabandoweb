@@ -354,7 +354,7 @@
 					<div class="col-lg-8 col-md-9 col-sm-8 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
 						<div class="contact-form">
 							<h3>Formulario</h3>
-							<form action="" id="contact-form">
+							<form method="post" action="enviarmensaje.php" id="contact-form">
 								<div class="input-group name-email">
 									<div class="input-field">
 										<input type="text" name="name" id="name" placeholder="Nombre" class="form-control">
@@ -367,7 +367,7 @@
 									<textarea name="message" id="message" placeholder="mensaje" class="form-control"></textarea>
 								</div>
 								<div class="input-group">
-									<button type="button" id="Enviar" class="pull-right" value="Clic para enviar">Enviar </button>
+									<input type="submit" id="form-submit" class="pull-right" value="Clic para enviar">
 								</div>
 							</form>
 						</div>
@@ -471,7 +471,7 @@
 		<!-- Custom Functions -->
         <script src="js/custom.js"></script>
 
-        <script>
+        <!-- <script>
         $('#Enviar').click(function(){
           var Nombre=document.getElementById('name').value;
           var Correo=document.getElementById('email').value;
@@ -497,7 +497,7 @@
 
         });
 
-        </script>
+        </script> -->
 
 		<!-- <script type="text/javascript">
 			$(function(){

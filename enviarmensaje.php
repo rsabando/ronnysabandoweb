@@ -2,7 +2,10 @@
 // $nombre=$_POST['Nom'];
 // $correo=$_POST['Co'];
 // $mensaje=$_POST['Ms'];
-// echo "Hola ".$nombre." con correo ".$correo." tu mensaje es: ". $mensaje;
+$nombre=$_POST['name'];
+$correo=$_POST['email'];
+$mensaje=$_POST['message'];
+echo "Hola ".$nombre." con correo ".$correo." tu mensaje es: ". $mensaje;
 
 // # Include the Autoloader (see "Libraries" for install instructions)
 // require 'vendor/autoload.php';
