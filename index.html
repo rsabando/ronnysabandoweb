@@ -483,8 +483,10 @@
             type:'POST',
             data: ruta,
           })
-          .done(function(res){
-            $('#respuesta').html(res)
+          // .done(function(res){
+          //   $('#respuesta').html(res)
+          .done(function(){
+            console.log("good");
           })
           .fail(function(){
             console.log("error");
