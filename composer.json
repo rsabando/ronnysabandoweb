@@ -1,6 +1,9 @@
+
 {
-}
-{
+  "require" : {
+       "php" : "^5.5 || ^7.0",
+       "ext-mbstring": "*"
+   },
   "require": {
     "sendgrid/sendgrid": "~5.0.9"
   }
