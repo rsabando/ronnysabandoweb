@@ -4,6 +4,17 @@
 
 @media (min-width: 980px) and (max-width: 1150px) {
 
+.diseñoweb{
+    background-size: cover;
+}
+  .cuadroflotante{
+    /* margin-left: 470px;
+    margin-right: 10px; */
+  /* background-color: black; */
+  /* revisar */
+  }
+
+
 /* slider */
 .carousel-caption h3 {
   font-size: 45px;
@@ -44,7 +55,8 @@
     padding-right: 0;
   }
   .cuadroflotante{
-padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 
 /* slider */
