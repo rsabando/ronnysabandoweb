@@ -8,7 +8,13 @@
 .carousel-caption h3 {
   font-size: 45px;
 }
+.features {
+  height: auto;
+}
 
+.diseñoweb{
+    height: auto;
+}
 /* works */
 
 /* .quiensoy{
@@ -30,6 +36,16 @@
 
 @media (min-width: 768px) and (max-width: 979px) {
 
+  .carousel-caption .carousel-box1{
+  padding-left:0;
+    /* background-color: black; */
+  }
+  .carousel-caption .carousel-box2{
+    padding-right: 0;
+  }
+  .cuadroflotante{
+padding-left: 0;
+  }
 
 /* slider */
 
@@ -65,7 +81,14 @@
 /* works */
 
 .work-item {
-  width: 47%;
+  width: 50%;
+}
+.diseñoweb{
+    height: auto;
+}
+
+.features {
+  height: auto;
 }
 /* .quiensoy{
   width:48%;
@@ -78,7 +101,10 @@ height:240px;
 } */
 
 /* team */
-
+.contact-address {
+  /* margin-bottom: 30px; */
+    text-align: center;
+}
 .member-thumb .overlay h5 {
   margin: 25px 0;
 }
@@ -129,6 +155,29 @@ background-position: center top !important;
 ==============================================================*/
 
 @media only screen and (max-width: 767px) {
+.navbar-header a{
+
+}
+.navbar-brand{
+
+}
+#logo img{
+  opacity: 1;
+  margin: 0;
+  padding: 0;
+  margin: 5px;
+  margin-left: 20px;
+  border: 0;
+width:70px;
+  clip-path:none;
+}
+.carousel-caption .carousel-box1{
+padding-left:0;
+  /* background-color: black; */
+}
+.carousel-caption .carousel-box2{
+  padding-right: 0;
+}
 
 .sec-sub-title p {
   font-size: 14px;
@@ -136,15 +185,26 @@ background-position: center top !important;
 
 /* slider */
 .carousel-caption h2 {
-  font-size: 35px;
+  font-size: 45px;
+  /* font-size: 35px; */
+}
+.carousel-caption h2 span {
+  font-size: 45px;
+  /* font-size: 35px; */
 }
 
 .carousel-caption h3 {
-  font-size: 22px;
+  font-size: 32px;
+  /* font-size: 22px; */
+}
+.carousel-caption h3 span {
+  font-size: 32px;
+  /* font-size: 22px; */
 }
 
 .carousel-caption p {
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 20px;
 }
 
 .social-links {
@@ -175,8 +235,16 @@ background-position: center top !important;
 /* works */
 
 .work-item {
-  left: 3% !important;
-  width: 90%;
+  /* left: 3% !important; */
+  margin-top: 10px;
+  width: 100%;
+}
+.diseñoweb{
+    height: auto;
+}
+
+.features {
+  height: auto;
 }
 /* .quiensoy{
   width:48%;
@@ -220,8 +288,52 @@ background-position: center top !important;
 
 /* contact */
 .contact-address {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
     text-align: center;
+}
+/* .diseñoweb{
+  background-size: cover;
+} */
+
+.cuadroflotante{
+  margin: auto;
+  padding: 8px;
+  /* background-color: rgba(255, 255, 255, 0.9); */
+  /* clip-path: polygon(10% 0, 100% 0, 100% 90%, 90% 100%, 0 100%, 0 10%); */
+  /* clip-path: inset(0 round 30px 0 30px 0); */
+  /* box-shadow: 1px 10px 50px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.cuadroflotante h2,span{
+  /* margin: 10px; */
+  font-size: 30px;
+  /* margin-left: 0; */
+}
+.cuadroflotante h3{
+  font-size: 38px;
+}
+.cuadroflotante h3 span{
+  font-size: 38px;
+}
+
+.cuadroflotante h4{
+  margin: 5px;
+  font-size: 20px;
+  /* margin-left: 0; */
+}
+
+.cuadroflotante2{
+  /* margin: 8px; */
+  /* text-align: center; */
+
+}
+.cuadroflotante2 h3{
+  font-size: 38px;
+  /* text-align: justify; */
+}
+
+.cuadroflotante2 h3 span{
+  font-size: 38px;
 }
 
 .footer-social {
@@ -253,6 +365,7 @@ background-position: center top !important;
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
 
+
 /* services */
 
 .service-item {
@@ -279,10 +392,12 @@ background-position: center top !important;
 .work-item {
   left: inherit !important;
 
-  width: 45%;
-  margin-left: 10px;
-  margin-right: 10px;
+  /* width: 45%; */
+   width: 50%;
+  /* margin-left: 10px;
+  margin-right: 10px; */
   /* float: left; */
 }
+
 
 }
