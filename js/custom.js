@@ -5,7 +5,11 @@
 jQuery(window).load(function(){
 
 	$("#preloader").fadeOut("slow");
-
+	// 	if ($(window).width()<=768) {
+			// var slideHeight = "500px";
+	// $('#slider, .carousel.slide, .carousel-inner, .carousel-inner .item').css('height',slideHeight);
+	//
+	// 	}
 });
 
 
@@ -50,7 +54,7 @@ $(document).ready(function(){
 						$("#logo").css("transition","0.4s");
         }
 
-				if ($(window).scrollTop() > 10) {
+				if ($(window).scrollTop() > 10 && $(window).width()>767) {
 						$("#logo").css("opacity","0");
 						$("#logo").css("transition","0.4s");
 
@@ -65,13 +69,19 @@ $(document).ready(function(){
 	/* ========================================================================= */
 
 	// var slideHeight = $(window).height();
-		var slideHeight = "1000px";
-
-	$('#slider, .carousel.slide, .carousel-inner, .carousel-inner .item').css('height',slideHeight);
-
-	$(window).resize(function(){'use strict',
-		$('#slider, .carousel.slide, .carousel-inner, .carousel-inner .item').css('height',slideHeight);
-	});
+	// 	var slideHeight = "1000px";
+	//
+	// $('#slider, .carousel.slide, .carousel-inner, .carousel-inner .item').css('height',slideHeight);
+	//
+	// $(window).resize(function(){'use strict',
+	// 	$('#slider, .carousel.slide, .carousel-inner, .carousel-inner .item').css('height',slideHeight);
+	//
+	// 	if ($(window).width()<=768) {
+	// 		var slideHeight = "500px";
+	// $('#slider, .carousel.slide, .carousel-inner, .carousel-inner .item').css('height',slideHeight);
+	//
+	// 	}
+	// });
 
 
 	/* ========================================================================= */

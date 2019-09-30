@@ -13,7 +13,10 @@
   /* background-color: black; */
   /* revisar */
   }
-
+  .works{
+          height: 1200px;
+            /* margin-bottom: 20px; */
+  }
 
 /* slider */
 .carousel-caption h3 {
@@ -91,6 +94,14 @@
 }
 
 /* works */
+.works{
+        height: 1600px;
+          /* margin-bottom: 20px; */
+}
+.works.container{
+  height:auto;
+          /* padding-bottom: 20px; */
+}
 
 .work-item {
   width: 50%;
@@ -101,6 +112,17 @@
 
 .features {
   height: auto;
+}
+.cuadroflotante{
+
+}
+
+.cuadroflotante .recuadroblanco{
+  padding: 20px;
+  background-color: rgba(213, 239, 251, 0.9);
+  clip-path: inset(0 round 30px 0 30px 0);
+    /* border: solid 2px #fff; */
+
 }
 /* .quiensoy{
   width:48%;
@@ -173,6 +195,8 @@ background-position: center top !important;
 .navbar-brand{
 
 }
+
+
 #logo img{
   opacity: 1;
   margin: 0;
@@ -183,6 +207,33 @@ background-position: center top !important;
 width:70px;
   clip-path:none;
 }
+
+/* SLIDER HEIGHT */
+#slider {
+    height: 600px;
+    /* margin-bottom: 2px; */
+}
+
+.carousel.slide{
+height: 500px;
+
+}
+#slider .carousel-inner .item {
+  height: 500px;
+}
+.carousel-indicators {
+  top: 44%;
+
+}
+
+.carousel-caption {
+    /* background-color: black; */
+      height: 300px;
+  top: 30%;
+
+
+}
+
 .carousel-caption .carousel-box1{
 padding-left:0;
   /* background-color: black; */
@@ -197,6 +248,7 @@ padding-left:0;
 
 /* slider */
 .carousel-caption h2 {
+      /* background-color: black; */
   font-size: 45px;
   /* font-size: 35px; */
 }
@@ -245,11 +297,23 @@ padding-left:0;
 }
 
 /* works */
+.works{
+        /* height: 1600px; */
+        background-position: left;
 
+}
 .work-item {
   /* left: 3% !important; */
   margin-top: 10px;
   width: 100%;
+}
+
+.work-item .overlay h2 {
+  font-size: 18px;
+}
+
+.work-item .overlay p {
+  font-size: 14px;
 }
 .diseñoweb{
     height: auto;
@@ -334,19 +398,28 @@ background-position: center top !important;
   /* margin-left: 0; */
 }
 
+
+.diseñoweb2{
+    /* height: 400px; */
+}
 .cuadroflotante2{
   /* margin: 8px; */
-  /* text-align: center; */
-
+  text-align: left;
+  /* background-color: black; */
+  margin-right: 100px;
 }
 .cuadroflotante2 h3{
-  font-size: 38px;
-  /* text-align: justify; */
+  font-size: 28px;
+  text-align: left;
+}
+.cuadroflotante2 h3 span{
+  font-size: 28px;
+}
+.cuadroflotante2 h4{
+  text-align: left;
 }
 
-.cuadroflotante2 h3 span{
-  font-size: 38px;
-}
+
 
 .footer-social {
   margin-top: 20px;
