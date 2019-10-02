@@ -351,22 +351,29 @@ padding-left:0;
 
 /* works */
 .works{
-        /* height: 1600px; */
-        background-position: left;
+        height: auto;
+        /* background-position: left; */
+        /* background-size:auto ; */
+      /* background-position: 50% 100%; */
+        background-image: none;
 
 }
 .work-item {
   /* left: 3% !important; */
   margin-top: 10px;
-  width: 100%;
+  width: 50%;
+}
+.work-item .overlay {
+
 }
 
 .work-item .overlay h2 {
-  font-size: 18px;
+  margin-top: 6px;
+  font-size: 12px;
 }
 
 .work-item .overlay p {
-  font-size: 14px;
+  font-size: 10px;
 }
 /* .diseñoweb{
     height: auto;
@@ -374,12 +381,20 @@ padding-left:0;
 
 .features {
   height: auto;
+  /* background-image: none; */
+  /* background-color: black; */
 }
 
 .quiensoy{
+  width: 100%;
+  height: auto;
 float:none;
 margin:auto;
 margin-top: 10px;
+}
+
+.quiensoy .sec-sub-title h4 {
+  font-size: 15px;
 }
 
 /* team */
@@ -415,7 +430,7 @@ background-position: center top !important;
   background-image: url(../img/fondos/seccion-diseñoweb-movil.jpg);
   height: 900px;
   background-size:auto ;
-background-position: 50% 130%;
+background-position: 50% 100%;
   /* padding-top: 100px; */
 }
 
