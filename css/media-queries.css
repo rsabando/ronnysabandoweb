@@ -63,6 +63,28 @@
   }
 
 /* slider */
+#slide1 {
+  background-image: url(../img/slider/banner-inicio1-768.jpg);
+    background-position: top;
+}
+/* .carousel.slide{
+height: 500px;
+
+} */
+#slider .carousel-inner .item {
+    background-size: auto;
+    background-position: 50% 50%;
+}
+
+.carousel-indicators {
+  top: 24%;
+
+}
+
+.carousel-caption {
+  height: 300px;
+  top: 14%;
+}
 
 .carousel-caption h2 {
   font-size: 55px;
@@ -106,12 +128,38 @@
 .work-item {
   width: 50%;
 }
-.diseñoweb{
-    height: auto;
+.quiensoy{
+float:none;
+margin:auto;
+margin-top: 10px;
+text-align: center;
+/* margin-left: 15%; */
+}
+.quiensoy img{
 }
 
+.features .container{
+
+/* background-color: blue; */
+}
 .features {
+background-image: none;
+  /* background-color: black; */
   height: auto;
+}
+
+.diseñoweb{
+  background-image: url(../img/fondos/seccion-diseñoweb-movil.jpg);
+  height: 900px;
+  background-size: auto;
+background-position: 50% 80%;
+  /* padding-top: 100px; */
+}
+.diseñoweb2{
+  background-image: url(../img/fondos/diseñoweb2-movil.jpg);
+  height: 800px;
+  background-size: auto;
+  background-position: 50% 80%;
 }
 .cuadroflotante{
 
@@ -119,20 +167,13 @@
 
 .cuadroflotante .recuadroblanco{
   padding: 20px;
-  background-color: rgba(213, 239, 251, 0.9);
-  clip-path: inset(0 round 30px 0 30px 0);
-    /* border: solid 2px #fff; */
-
 }
-/* .quiensoy{
-  width:48%;
-height:240px;
-  float: left;
 
+.cuadroflotante .sec-sub-title img{
+
+  /* width: 30%; */
+  opacity: 0;
 }
-.quiensoy h4{
-  font-size: 12px;
-} */
 
 /* team */
 .contact-address {
@@ -210,8 +251,15 @@ width:70px;
 
 /* SLIDER HEIGHT */
 #slider {
-    height: 600px;
+    /* height: 900px; */
     /* margin-bottom: 2px; */
+}
+
+#slide1 {
+  background-image: url(../img/slider/banner-inicio1-768.jpg);
+    background-position: top;
+    /* background-color: black; */
+
 }
 
 .carousel.slide{
@@ -219,7 +267,12 @@ height: 500px;
 
 }
 #slider .carousel-inner .item {
-  height: 500px;
+      /* background-size: auto 100%;
+      background-position: center; */
+      background-size: auto;
+    background-position: 50% 50%;
+      /* height: 100%; */
+
 }
 .carousel-indicators {
   top: 44%;
@@ -229,7 +282,7 @@ height: 500px;
 .carousel-caption {
     /* background-color: black; */
       height: 300px;
-  top: 30%;
+  top: 14%;
 
 
 }
@@ -272,7 +325,7 @@ padding-left:0;
 }
 
 .social-links {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 /* services */
@@ -315,27 +368,18 @@ padding-left:0;
 .work-item .overlay p {
   font-size: 14px;
 }
-.diseñoweb{
+/* .diseñoweb{
     height: auto;
-}
+} */
 
 .features {
   height: auto;
 }
-/* .quiensoy{
-  width:48%;
-height:240px;
-  float: left;
 
-}
-.quiensoy h4{
-  font-size: 12px;
-} */
 .quiensoy{
-
-height:auto;
-
-
+float:none;
+margin:auto;
+margin-top: 10px;
 }
 
 /* team */
@@ -367,17 +411,23 @@ background-position: center top !important;
   /* margin-bottom: 30px; */
     text-align: center;
 }
-/* .diseñoweb{
-  background-size: cover;
-} */
+.diseñoweb{
+  background-image: url(../img/fondos/seccion-diseñoweb-movil.jpg);
+  height: 900px;
+  background-size:auto ;
+background-position: 50% 130%;
+  /* padding-top: 100px; */
+}
+
+.diseñoweb img{
+opacity: 0;
+}
 
 .cuadroflotante{
   margin: auto;
   padding: 8px;
-  /* background-color: rgba(255, 255, 255, 0.9); */
-  /* clip-path: polygon(10% 0, 100% 0, 100% 90%, 90% 100%, 0 100%, 0 10%); */
+  /* background-color: black; */
   /* clip-path: inset(0 round 30px 0 30px 0); */
-  /* box-shadow: 1px 10px 50px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .cuadroflotante h2,span{
@@ -398,25 +448,31 @@ background-position: center top !important;
   /* margin-left: 0; */
 }
 
-
 .diseñoweb2{
-    /* height: 400px; */
+  background-image: url(../img/fondos/diseñoweb2-movil.jpg);
+    height: 800px;
+    /* background-size: contain; */
+    /* width: 100% auto; */
+      background-size: auto;
+    background-position: 50% 80%;
 }
 .cuadroflotante2{
-  /* margin: 8px; */
-  text-align: left;
+
+  margin-top: -40px;
+    margin-left: 0;
+  text-align: center;
   /* background-color: black; */
-  margin-right: 100px;
+  background-position: bottom;
 }
 .cuadroflotante2 h3{
   font-size: 28px;
-  text-align: left;
+  text-align: center;
 }
 .cuadroflotante2 h3 span{
   font-size: 28px;
 }
 .cuadroflotante2 h4{
-  text-align: left;
+  text-align: center;
 }
 
 
