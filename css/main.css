@@ -280,6 +280,12 @@ height: 1000px;
 #slider .carousel-inner{
 height: 1000px;
 }
+.slide1 {
+  width: 100%;
+}
+.slide2 {
+  width: 100%;
+}
 #slider .carousel-inner .item .slide1 {
   background-image: url(../img/slider/banner-inicio1.jpg);
   height: 1000px;

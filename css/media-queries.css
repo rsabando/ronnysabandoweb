@@ -376,6 +376,7 @@ padding-left:0;
 /* works */
 .works{
         height: auto;
+        /* background-color: black; */
         /* background-position: left; */
         /* background-size:auto ; */
       /* background-position: 50% 100%; */
@@ -514,7 +515,10 @@ opacity: 0;
   text-align: center;
 }
 
-
+.devider:before,
+.devider:after {
+  content: "___________________";
+}
 
 .footer-social {
   margin-top: 20px;
