@@ -280,13 +280,22 @@ height: 1000px;
 #slider .carousel-inner{
 height: 1000px;
 }
-#slider .carousel-inner .item {
+#slider .carousel-inner .item .slide1 {
+  background-image: url(../img/slider/banner-inicio1.jpg);
   height: 1000px;
   background-size: cover;
 }
-#slide1{
-  background-image: url(../img/slider/banner-inicio1.jpg);
+
+#slider .carousel-inner .item .slide2 {
+  background-image: url(../img/slider/banner-inicio2op-ver2.jpg);
+  height: 1000px;
+  background-size: cover;
 }
+/* #slider .carousel-inner .item {
+  height: 1000px;
+  background-size: cover;
+} */
+
 
 .carousel-caption {
 
@@ -1047,7 +1056,7 @@ margin: 45px;
   }
   .works .sec-sub-title h4{
     color: #666565;
-    font-size: 23px;
+    font-size: 20px;
     font-family: GeosansLight;
   }
 

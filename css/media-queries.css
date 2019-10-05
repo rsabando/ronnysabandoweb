@@ -3,6 +3,14 @@
 ==============================================================*/
 
 @media (min-width: 980px) and (max-width: 1150px) {
+/*
+  .quiensoy{
+    width:450px;
+    height:310px;
+  }
+  .quiensoy .sec-sub-title h4{
+  font-size: 17px;
+  } */
 
 .diseñoweb{
     background-size: cover;
@@ -63,17 +71,28 @@
   }
 
 /* slider */
-#slide1 {
-  background-image: url(../img/slider/banner-inicio1-768.jpg);
+/* .slide1 .item {
+  background-image: url(../img/slider/banner-inicio1-768-2.jpg);
     background-position: top;
-}
+} */
 /* .carousel.slide{
 height: 500px;
 
 } */
-#slider .carousel-inner .item {
+/* #slider .carousel-inner .item {
     background-size: auto;
     background-position: 50% 50%;
+} */
+#slider .carousel-inner .item .slide1 {
+  background-image: url(../img/slider/banner-inicio1-768-2.jpg);
+    background-size: auto;
+    background-position: 50% 50%;
+}
+
+#slider .carousel-inner .item .slide2 {
+  background-image: url(../img/slider/banner-inicio2-768.jpg);
+    background-size: auto;
+    background-position: 50% 100%;
 }
 
 .carousel-indicators {
@@ -149,7 +168,7 @@ background-image: none;
 }
 
 .diseñoweb{
-  background-image: url(../img/fondos/seccion-diseñoweb-movil.jpg);
+  background-image: url(../img/fondos/seccion-diseñoweb-movil2.jpg);
   height: 900px;
   background-size: auto;
 background-position: 50% 80%;
@@ -251,38 +270,43 @@ width:70px;
 
 /* SLIDER HEIGHT */
 #slider {
-    /* height: 900px; */
+  height: 1000px;
     /* margin-bottom: 2px; */
 }
 
-#slide1 {
-  background-image: url(../img/slider/banner-inicio1-768.jpg);
-    background-position: top;
-    /* background-color: black; */
+#slider .carousel-inner{
+height: 900px;
+}
 
+#slider .carousel-inner .item .slide1 {
+  background-image: url(../img/slider/banner-inicio1-768-2.jpg);
+    background-size: auto;
+    background-position: 50% 70%;
+}
+#slider .carousel-inner .item .slide2 {
+  background-image: url(../img/slider/banner-inicio2-768.jpg);
+    background-size: auto;
+    background-position: 37% 140%;
 }
 
 .carousel.slide{
 height: 500px;
 
 }
-#slider .carousel-inner .item {
-      /* background-size: auto 100%;
-      background-position: center; */
+/* #slider .carousel-inner .item {
       background-size: auto;
     background-position: 50% 50%;
-      /* height: 100%; */
-
-}
+} */
 .carousel-indicators {
-  top: 44%;
+  top: 34%;
 
 }
 
 .carousel-caption {
     /* background-color: black; */
       height: 300px;
-  top: 14%;
+  /* top: 14%; */
+    top: 10%;
 
 
 }
@@ -427,7 +451,7 @@ background-position: center top !important;
     text-align: center;
 }
 .diseñoweb{
-  background-image: url(../img/fondos/seccion-diseñoweb-movil.jpg);
+  background-image: url(../img/fondos/seccion-diseñoweb-movil2.jpg);
   height: 900px;
   background-size:auto ;
 background-position: 50% 100%;
