@@ -3,24 +3,46 @@
 ==============================================================*/
 
 @media (min-width: 980px) and (max-width: 1150px) {
-/*
-  .quiensoy{
-    width:450px;
-    height:310px;
-  }
-  .quiensoy .sec-sub-title h4{
-  font-size: 17px;
-  } */
 
-.diseñoweb{
-    background-size: cover;
-}
-  .cuadroflotante{
-    /* margin-left: 470px;
-    margin-right: 10px; */
+    #slider .carousel-inner .item .slide1 {
+        background-position: 25% 50%;
+    }
+
+    #slider .carousel-inner .item .slide2 {
+        background-position: 30% 100%;
+    }
+    .quiensoy{
+      width:450px;
+      height:310px;
+    }
+    .quiensoy .sec-sub-title h4{
+    font-size: 17px;
+    }
+
+    .diseñoweb{
+    background-position: 30% 80%;
+
+    }
+    .cuadroflotante{
+      width: 60%;
+      margin-right: 35px;
+    }
+    .cuadroflotante h3 {
+      font-size: 45px;
+
+    }
+
+.cuadroflotante2{
   /* background-color: black; */
-  /* revisar */
-  }
+  width: 400px;
+
+}
+    .cuadroflotante2 h3 {
+      text-align: center;
+      font-size: 30px;
+
+    }
+
   .works{
           height: 1200px;
             /* margin-bottom: 20px; */
@@ -156,6 +178,7 @@ text-align: center;
 }
 .quiensoy img{
 }
+
 
 .features .container{
 
@@ -476,10 +499,10 @@ opacity: 0;
   /* margin-left: 0; */
 }
 .cuadroflotante h3{
-  font-size: 38px;
+  font-size: 28px;
 }
 .cuadroflotante h3 span{
-  font-size: 38px;
+  font-size: 28px;
 }
 
 .cuadroflotante h4{
