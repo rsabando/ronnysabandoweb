@@ -275,6 +275,10 @@ background-position: center top !important;
 .navbar-header a{
 
 }
+.navbar-nav a{
+  border-left: none;
+}
+
 .navbar-brand{
 
 }
